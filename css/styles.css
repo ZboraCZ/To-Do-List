@@ -1,0 +1,164 @@
+/*******ALL PAGES*********/
+
+.user-info {
+    width: 100%;
+    text-align: right;
+}
+
+.user-info a {
+    text-decoration: none;
+    color: blue;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.user-info a:hover {
+    background-color: #ccd9ff;
+}
+
+#header-menu {
+    margin-top: 30px;
+}
+#header-menu .menu-list {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#header-menu .menu-list li{
+    display: inline;
+    font-size: 25px;
+    overflow: hidden;
+}
+
+#header-menu .menu-list li a{
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 30px 15px;
+    border-radius: 40px;
+    color: #595959;
+}
+
+#header-menu .menu-list li a:hover {
+    background-color: #d9d9d9;
+}
+
+#header-menu .menu-list li a.active {
+    background-color: #bfbfbf;
+}
+
+/******INDEX.PHP******/
+
+.main-news {
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+
+.main-news h2 {
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 10%;
+    padding-bottom: 15px;
+}
+
+/*****CREATE TASK******/
+
+.create-Task {
+    width: 20%;
+    margin: auto;
+    text-align: left;
+}
+
+/*****PRIVATE TASKS*****/
+
+.myTasks {
+    width: 60%;
+    text-align: left;
+    margin: auto;
+}
+
+.publicTasks {
+    width: 60%;
+    text-align: left;
+    margin: auto;
+}
+
+.myTasks h2,h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.publicTasks h2,h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.myTasks .privateTasksList {
+    list-style: none;
+    margin: auto;
+}
+
+.publicTasks .publicTasksList {
+    list-style: none;
+    margin: auto;
+}
+
+.myTasks .privateTasksList li {
+    border-bottom-style: dashed;
+    border: 0px 0px 1px 0px;
+    border-color: grey;
+    margin-right: 10%;
+    padding-bottom: 3%;
+}
+
+.publicTasks .publicTasksList li {
+    border-bottom-style: dashed;
+    border: 0px 0px 1px 0px;
+    border-color: grey;
+    margin-right: 10%;
+    padding-bottom: 3%;
+}
+
+.done-button {
+    text-decoration: none;
+    color: #363639;
+    display: inline-block;
+    background-color: #d9dfe1;
+    padding: 3px 6px;
+    border: 0;
+    opacity: 0.5;
+}
+
+.delete-button {
+    margin-left: 2%;
+    text-decoration: none;
+    color: #363639;
+    display: inline-block;
+    background-color: #ff9999;
+    padding: 3px 6px;
+    border: 0;
+    opacity: 0.5;
+}
+
+.privateTasksList li:hover .done-button{
+    opacity: 1;
+}
+
+.publicTasksList li:hover .done-button{
+    opacity: 1;
+}
+
+.privateTasksList .delete-button:hover {
+    opacity: 1;
+}
+
+.publicTasksList .delete-button:hover {
+    opacity: 1;
+}
+
+.privateTasksList .item-done {
+    background-color: #ccffb3;
+}
+
+.publicTasksList .item-done {
+    background-color: #ccffb3;
+}
